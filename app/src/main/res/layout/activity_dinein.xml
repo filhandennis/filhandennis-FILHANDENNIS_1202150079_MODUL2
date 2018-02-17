@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    tools:context="com.example.dnn.filhandennis_1202150079_modul2.Dinein">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Pelanggan"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/txtNamaDineIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_marginBottom="15dp"
+        android:hint="Nama"
+        android:inputType="textCapWords"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNamaDineIn"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="No. Meja"
+        android:textAlignment="center"
+        android:textSize="14dp" />
+
+    <Spinner
+        android:id="@+id/txtNoMeja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/title2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/title2"
+        android:layout_toRightOf="@+id/title2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/title2"
+        android:onClick="selectMenu2"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:text="Pilih Pesanan"/>
+
+</RelativeLayout>

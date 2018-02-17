@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context="com.example.dnn.filhandennis_1202150079_modul2.DetailMenu">
+
+    <ImageView
+        android:id="@+id/lblDetailGambar"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/ampera_rendang"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lblDetailNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rendang"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lblDetailHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rp. 30000"
+        android:textSize="22dp"
+        android:textStyle="normal"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textSize="18dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lblDetailDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daging Sapi"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+</LinearLayout>
