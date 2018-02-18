@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Restoran Ampera</string>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">datePicker</string>
+    <string name="time">timePicker</string>
 </resources>
