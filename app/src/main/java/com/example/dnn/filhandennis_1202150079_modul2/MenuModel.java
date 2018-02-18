@@ -1,7 +1,8 @@
 package com.example.dnn.filhandennis_1202150079_modul2;
 
 /**
- * Created by ASUS on 17/02/2018.
+ * Sebuah Model Data yang digunakan untuk sebagai representasi dari Objek Data
+ * yang dapat menunjukkan rincian dari sebuah objek tersebut.
  */
 
 public class MenuModel {

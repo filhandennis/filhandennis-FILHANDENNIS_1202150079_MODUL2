@@ -13,7 +13,10 @@ public class Takeaway extends AppCompatActivity {
         setContentView(R.layout.activity_takeaway);
     }
 
+    //Method yang dijalankan saat tombol diklik
+    //Digunakan untuk berpindah ke acitivy DaftarMenu
     public void selectMenu2(View view){
+        //Pindah Activity
         startActivity(new Intent(this, DaftarMenu.class));
     }
 }

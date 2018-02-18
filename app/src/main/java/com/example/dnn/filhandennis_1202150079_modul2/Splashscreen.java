@@ -12,11 +12,14 @@ public class Splashscreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
 
-        //https://stackoverflow.com/questions/5486789/how-do-i-make-a-splash-screen
+        //Referensi: https://stackoverflow.com/questions/5486789/how-do-i-make-a-splash-screen
+        //Handler untuk mengatur berapa lama perintah didalamnya akan dijalankan (Delay)
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
+                //Pindah ke MainActivity
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                //Menutup Activity Ini
                 finish();
             }
         }, 5000);
